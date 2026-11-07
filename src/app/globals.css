@@ -1,0 +1,134 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+
+/* Expose the design tokens as Tailwind theme values. */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-stage-saved: var(--stage-saved);
+  --color-stage-applied: var(--stage-applied);
+  --color-stage-assessment: var(--stage-assessment);
+  --color-stage-interviewing: var(--stage-interviewing);
+  --color-stage-offered: var(--stage-offered);
+  --color-stage-rejected: var(--stage-rejected);
+
+  --font-sans: var(--font-family-sans);
+  --font-display: var(--font-family-display);
+  --font-mono: var(--font-family-mono);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+
+  --ease-standard: var(--easing-standard);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+  }
+
+  /* Visible focus for every keyboard-focusable element (WCAG 2.4.7). */
+  :focus-visible {
+    outline: 3px solid var(--color-ring);
+    outline-offset: 3px;
+  }
+}
+
+/* Surface utilities from the Lovable design. */
+@utility page-backdrop {
+  background: var(--gradient-page);
+}
+
+@utility glass-panel {
+  background: var(--gradient-panel);
+  box-shadow: var(--shadow-glow);
+  backdrop-filter: blur(24px);
+}
+
+@utility gradient-primary {
+  background: var(--gradient-primary);
+}
+
+@utility gradient-text {
+  background: var(--gradient-primary);
+  background-clip: text;
+  color: transparent;
+}
+
+@utility step-enter {
+  animation: step-enter 240ms ease-out both;
+}
+
+@keyframes step-enter {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Offer celebration (see dashboard/celebration.tsx). */
+@utility confetti {
+  animation: confetti-fall 1800ms ease-in forwards;
+}
+
+@keyframes confetti-fall {
+  from {
+    opacity: 1;
+    transform: translateY(-1rem);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(80vh) rotate(540deg);
+  }
+}
+
+/* Respect reduced-motion preferences globally (WCAG 2.3.3). */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Pages with a fixed action bar on phones: keep the footer clear of it. */
+@media (width < 48rem) {
+  body:has([data-bottom-bar]) > footer {
+    padding-bottom: 7rem;
+  }
+}

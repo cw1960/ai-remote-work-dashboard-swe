@@ -1,0 +1,15 @@
+# Netlify config for the Next.js app (runtime declared explicitly below).
+# Production deploys from `main`; every pull request gets a deploy preview.
+
+[build]
+  command = "pnpm build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+# Declared explicitly: automatic detection did not apply the Next.js runtime,
+# so deploys shipped static files only (0 functions) and every route 404'd.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

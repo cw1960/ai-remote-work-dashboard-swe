@@ -1,0 +1,88 @@
+/*
+ * Design tokens, from the Lovable design (repo cw1960/app-brand-builder,
+ * src/styles.css): a single dark "indigo glass" theme. Change values here,
+ * never in components.
+ *
+ * Names follow shadcn/ui conventions so its components work unchanged.
+ * Components must use these tokens (via Tailwind classes such as bg-background,
+ * text-muted-foreground, rounded-lg), never raw colours.
+ */
+
+:root {
+  /* Colour: surfaces and text */
+  --background: oklch(0.16 0.015 275);
+  --foreground: oklch(0.94 0.008 280);
+  --card: oklch(0.95 0.01 280 / 4%);
+  --card-foreground: oklch(0.94 0.008 280);
+  --popover: oklch(0.21 0.02 275);
+  --popover-foreground: oklch(0.94 0.008 280);
+  --muted: oklch(0.94 0.008 280 / 9%);
+  --muted-foreground: oklch(0.68 0.015 280);
+
+  /* Colour: actions and states */
+  --primary: oklch(0.62 0.16 275);
+  --primary-foreground: oklch(0.98 0.004 280);
+  --secondary: oklch(0.94 0.008 280 / 9%);
+  --secondary-foreground: oklch(0.88 0.01 280);
+  --accent: oklch(0.68 0.1 245);
+  --accent-foreground: oklch(0.9 0.03 245);
+  --destructive: oklch(0.65 0.16 25);
+  --destructive-foreground: oklch(0.98 0.004 280);
+  /* Not in the Lovable file; a green chosen to sit with its palette. */
+  --success: oklch(0.72 0.15 150);
+  --success-foreground: oklch(0.16 0.015 275);
+
+  /* Colour: lines and focus */
+  --border: oklch(0.9 0.01 280 / 9%);
+  --input: oklch(0.9 0.01 280 / 12%);
+  --ring: oklch(0.7 0.12 275);
+
+  /* Pipeline stages: one hue per column, so cards read at a glance.
+     Used as a tinted fill and a left edge on board cards. */
+  --stage-saved: oklch(0.72 0.03 265);
+  --stage-applied: oklch(0.7 0.13 245);
+  --stage-assessment: oklch(0.78 0.13 80);
+  --stage-interviewing: oklch(0.7 0.15 305);
+  --stage-offered: oklch(0.75 0.15 150);
+  --stage-rejected: oklch(0.66 0.16 25);
+
+  /* Surfaces: gradients and glow */
+  --gradient-primary: linear-gradient(
+    120deg,
+    oklch(0.6 0.15 272),
+    oklch(0.55 0.12 258)
+  );
+  /* Page background: a subtle pinkish-white glow on the left fading to
+     near-black on the right (owner's request, 2026-10-01). */
+  --gradient-page: linear-gradient(
+    90deg,
+    oklch(0.33 0.05 355) 0%,
+    oklch(0.17 0.015 330) 45%,
+    oklch(0.08 0.006 300) 100%
+  );
+  --gradient-panel: linear-gradient(
+    160deg,
+    oklch(0.95 0.01 280 / 5%),
+    oklch(0.95 0.01 280 / 2%)
+  );
+  --shadow-glow: 0 32px 80px -32px oklch(0.08 0.03 275 / 70%);
+
+  /* Typography: --font-plus-jakarta is set by next/font in the root layout. */
+  --font-family-sans:
+    var(--font-plus-jakarta), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-family-display: var(--font-family-sans);
+  --font-family-mono:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    monospace;
+
+  /* Shape */
+  --radius: 1rem;
+
+  /* Motion */
+  --duration-fast: 120ms;
+  --duration-base: 200ms;
+  --easing-standard: cubic-bezier(0.2, 0, 0, 1);
+
+  color-scheme: dark;
+}

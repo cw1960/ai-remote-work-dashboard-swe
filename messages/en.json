@@ -1,0 +1,1493 @@
+{
+  "Metadata": {
+    "title": "{appName} — Track your AI training job applications",
+    "description": "Find remote AI-training jobs from Mercor, micro1, Invisible, Welo Data and more, tailor your resume to each job with AI, and track every application in one free dashboard."
+  },
+  "Layout": {
+    "skipToContent": "Skip to main content"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "body": "The page you're looking for doesn't exist or has moved.",
+    "home": "Go to the home page"
+  },
+  "Feed": {
+    "title": "Remote AI training jobs",
+    "count": "{count, plural, =0 {No open jobs} one {# open job} other {# open jobs}}",
+    "searchLabel": "Search jobs",
+    "searchPlaceholder": "Search jobs, e.g. Spanish legal",
+    "search": "Search",
+    "sortLabel": "Sort by",
+    "sortNewest": "Newest",
+    "sortPay": "Highest pay",
+    "filters": "Filters",
+    "filtersActive": "{count, plural, one {# active} other {# active}}",
+    "clearAll": "Clear all",
+    "apply": "Show jobs",
+    "close": "Close filters",
+    "platform": "Platform",
+    "domain": "Domain",
+    "minPay": "Minimum pay ($ per hour)",
+    "minPayHint": "Hourly jobs only",
+    "language": "Language",
+    "country": "Open to people in",
+    "anyCountry": "Any country",
+    "posted": "Posted",
+    "postedAny": "Any time",
+    "posted1d": "Last 24 hours",
+    "posted7d": "Last 7 days",
+    "posted30d": "Last 30 days",
+    "emptyTitle": "No jobs match these filters.",
+    "emptyBody": "Try removing a filter or searching for something broader.",
+    "clearFilters": "Clear filters",
+    "searchingFor": "Search: “{q}”",
+    "clearSearch": "Clear search",
+    "clearSearchFor": "Clear search “{q}”",
+    "emptySearchTitle": "No jobs match “{q}”.",
+    "emptySearchBody": "Try a shorter or different word.",
+    "emptyBothTitle": "No jobs match “{q}” with these filters.",
+    "emptyBothBody": "Your search and your filters together don't match any open job.",
+    "searchAllFor": "Search all jobs for “{q}”",
+    "errorTitle": "We couldn't load jobs.",
+    "errorBody": "Something went wrong on our side. Please try again.",
+    "retry": "Try again",
+    "previous": "Previous",
+    "next": "Next",
+    "pageOf": "Page {page} of {pages}",
+    "pagination": "Pagination",
+    "results": "Job results",
+    "postedAgo": "Posted {ago}",
+    "anyPay": "Any",
+    "allTitle": "All opportunities"
+  },
+  "Job": {
+    "pay": "{amount} {unit, select, hour {/ hr} day {/ day} week {/ week} month {/ month} year {/ year} task {/ task} session {/ session} project {/ project} other {}}",
+    "noPay": "Pay not listed",
+    "apply": "Apply",
+    "applyOn": "Apply on {platform}",
+    "opensInNewTab": "(opens {platform} in a new tab)",
+    "disclosure": "We may earn a referral fee if you're hired. It never costs you anything."
+  },
+  "Domains": {
+    "software": "Software",
+    "ai-ml": "AI & machine learning",
+    "data": "Data",
+    "engineering": "Engineering",
+    "robotics": "Robotics",
+    "science": "Science",
+    "medicine": "Medicine",
+    "law": "Law",
+    "finance": "Finance",
+    "business": "Business",
+    "sales-marketing": "Sales & marketing",
+    "language": "Languages",
+    "humanities": "Humanities",
+    "arts-design": "Arts & design",
+    "education": "Education",
+    "trades": "Skilled trades",
+    "generalist": "Generalist",
+    "other": "Other"
+  },
+  "JobPage": {
+    "metaTitle": "{title} · {platform}",
+    "metaDescription": "{title} on {platform}. {pay}. See the key facts and how joining {platform} works.",
+    "notFoundTitle": "Job not found",
+    "breadcrumb": "Breadcrumb",
+    "jobs": "Jobs",
+    "platforms": "Platforms",
+    "posted": "Posted {ago}",
+    "closed": "Closed",
+    "closedBody": "This job is no longer listed on {platform}{date, select, none {} other { (closed {date})}}.",
+    "facts": "Key facts",
+    "pay": "Pay",
+    "domain": "Domain",
+    "languages": "Languages",
+    "anyLanguage": "Not specified",
+    "openTo": "Open to",
+    "anywhere": "No country limits listed",
+    "notAvailableIn": "Not available in",
+    "fullDetails": "Full details and the application are on {platform}'s site.",
+    "howJoining": "How joining {platform} works",
+    "noNotes": "Joining steps for {platform} aren't written up yet.",
+    "platformGuide": "About {platform}",
+    "similar": "Similar jobs",
+    "similarOpen": "Similar open jobs",
+    "loadingSimilar": "Loading similar jobs",
+    "notFound": "We can't find this job.",
+    "notFoundBody": "It may have been removed, or the link is wrong.",
+    "backToJobs": "Back to all jobs",
+    "errorTitle": "We couldn't load this job."
+  },
+  "PlatformPage": {
+    "metaTitle": "{platform}: how joining works and open jobs",
+    "metaDescription": "How joining {platform} works, and its {count, plural, =0 {open jobs} one {# open job} other {# open jobs}}, updated every 6 hours.",
+    "notFoundTitle": "Platform not found",
+    "openJobs": "{count, plural, =0 {No open jobs} one {# open job} other {# open jobs}}",
+    "opensInNewTab": "(opens in a new tab)",
+    "howJoining": "How joining works",
+    "noNotes": "Joining steps for {platform} aren't written up yet.",
+    "facts": "Key facts",
+    "notAvailableIn": "Not available in",
+    "noLimits": "No country limits listed",
+    "jobsHeading": "Open jobs on {platform}",
+    "seeAll": "See all {count} {platform} jobs",
+    "emptyTitle": "No open {platform} jobs right now.",
+    "emptyBody": "New jobs show up here within 6 hours of being posted.",
+    "browseAll": "Browse all jobs",
+    "notFound": "We can't find this platform.",
+    "notFoundBody": "The link may be wrong.",
+    "errorTitle": "We couldn't load this platform."
+  },
+  "Auth": {
+    "metaTitle": "Sign in",
+    "title": "Sign in to {appName}",
+    "intro": "We'll email you a link. No password needed.",
+    "why": "Browsing jobs never needs an account.",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "submit": "Email me a link",
+    "sending": "Sending…",
+    "sentTitle": "Check your email",
+    "sentBody": "We sent a sign-in link to {email}. It works once and expires in an hour.",
+    "sentHint": "No email after a few minutes? Check your spam folder, or try again.",
+    "tryAgain": "Use a different email",
+    "invalidEmail": "Enter a valid email address, like you@example.com.",
+    "rateLimited": "Too many sign-in emails were sent. Please wait a few minutes and try again.",
+    "failed": "We couldn't send the email. Please try again.",
+    "linkFailed": "That sign-in link didn't work. It may have expired or already been used. Enter your email to get a new one.",
+    "signedInAs": "You're signed in as {email}.",
+    "continue": "Continue",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "account": "Account",
+    "profile": "Preferences",
+    "dashboard": "Dashboard",
+    "benefitsTitle": "A free account lets you:",
+    "benefits": {
+      "track": "Track every application on your own board",
+      "remind": "Get a reminder when it's time to follow up",
+      "alerts": "Get emailed new jobs that match your searches"
+    },
+    "consent": "By continuing you agree to our <terms>Terms of Use</terms> and <privacy>Privacy Notice</privacy>.",
+    "allJobs": "All jobs",
+    "admin": "Admin",
+    "resume": "Master Profile"
+  },
+  "Onboarding": {
+    "metaTitle": "Set up your profile",
+    "stepOf": "Step {step} of {total}",
+    "progress": "Profile progress",
+    "stepNames": {
+      "expertise": "Expertise",
+      "languages": "Languages",
+      "location": "Location",
+      "availability": "Availability",
+      "platforms": "Platforms"
+    },
+    "expertiseTitle": "What do you know best?",
+    "expertiseCopy": "Choose as many areas as you like, then add any specific skills.",
+    "skills": "Other skills",
+    "skillsHint": "Separate skills with commas, e.g. contract review, Python",
+    "languagesTitle": "Which languages can you work in?",
+    "languagesCopy": "Choose every language you can work in professionally.",
+    "searchLanguages": "Search languages",
+    "noLanguages": "No languages match “{query}”.",
+    "locationTitle": "Where do you live?",
+    "locationCopy": "Choose the country where you currently live.",
+    "country": "Country",
+    "chooseCountry": "Choose a country",
+    "countryNote": "Some platforms can't hire from every country. We'll hide jobs you can't apply for.",
+    "countryRequired": "Choose a country, or tap Skip.",
+    "availabilityTitle": "How much do you want to work?",
+    "availabilityCopy": "Set a weekly target and the rate you want to earn.",
+    "hoursPerWeek": "Hours per week",
+    "targetRate": "Target hourly rate",
+    "rateInvalid": "Enter an hourly rate between 1 and 10,000, or leave it empty.",
+    "platformsTitle": "Which platforms have you already joined?",
+    "platformsCopy": "Set your status on each. Platforms you've joined get a card on your board.",
+    "statusFor": "{platform} status",
+    "statuses": {
+      "not_joined": "Not joined",
+      "applied": "Applied",
+      "interviewing": "Interviewing",
+      "active": "Active",
+      "rejected": "Rejected"
+    },
+    "noPlatforms": "No platforms to set yet.",
+    "back": "Back",
+    "skip": "Skip",
+    "continue": "Continue",
+    "finish": "Finish",
+    "saving": "Saving…",
+    "saveFailed": "Couldn't save",
+    "saveFailedBody": "Check your connection and try again.",
+    "retry": "Try again",
+    "summary": "Your profile",
+    "summaryTitle": "A better shortlist",
+    "summaryCopy": "Each answer helps hide work you can't do and rank strong matches first.",
+    "notAnswered": "Not answered",
+    "targetValue": "{hours, plural, one {# hour} other {# hours}} a week{rate, select, none {} other { · {rate}/hr}}",
+    "doneEyebrow": "Profile ready",
+    "doneTitle": "You're set",
+    "doneBody": "Your profile is saved. You can change it any time from Profile in the header.",
+    "doneSkipped": "{count, plural, one {You skipped # step} other {You skipped # steps}}",
+    "doneSkippedBody": "Fill them in later so we can match jobs more accurately.",
+    "doneDashboard": "Go to my dashboard",
+    "doneContinue": "Continue"
+  },
+  "Dashboard": {
+    "metaTitle": "Your dashboard",
+    "title": "Your dashboard",
+    "subtitle": "Here's the shortest path to your next offer.",
+    "nav": "Dashboard",
+    "jobs": "Jobs",
+    "pipeline": "Pipeline",
+    "pipelineEyebrow": "Keep momentum",
+    "stages": {
+      "saved": "Saved",
+      "applied": "Applied",
+      "assessment": "Assessment",
+      "interviewing": "Interviewing",
+      "offered": "Offered",
+      "rejected": "Rejected"
+    },
+    "stagesLabel": "Pipeline stages",
+    "kinds": {
+      "job": "Job",
+      "platform": "Platform",
+      "manual": "Manual"
+    },
+    "cardCount": "{count, plural, one {# card} other {# cards}}",
+    "noCards": "No cards",
+    "closed": "Closed",
+    "due": "Follow up {date}",
+    "overdue": "Overdue · {date}",
+    "moveCard": "Move {title}",
+    "moveTo": "Move to…",
+    "moved": "Moved “{title}” to {stage}.",
+    "moveFailed": "Couldn't move the card. Please try again.",
+    "addCard": "Add card",
+    "addTitle": "Add a card",
+    "addDescription": "Track something that isn't in the job feed, like a direct application.",
+    "cardTitle": "Card title",
+    "cardTitlePlaceholder": "e.g. Follow up with recruiter",
+    "cancel": "Cancel",
+    "addToSaved": "Add to Saved",
+    "addFailed": "Couldn't add the card. Please try again.",
+    "emptyTitle": "Track your first job",
+    "emptyBody": "Save a job from the feed with Track this, or add something you're already applying to.",
+    "findJob": "Find a job",
+    "walkthroughTitle": "Start with one small step",
+    "walkthroughBody": "Track your first job from the feed, or add something you're already applying to.",
+    "completeProfile": "Finish your profile",
+    "completeProfileBody": "A complete profile lets us match jobs to you.",
+    "deleted": "Deleted “{title}”.",
+    "openCard": "Open {title}",
+    "details": {
+      "viewJob": "View job page",
+      "loading": "Loading card",
+      "loadFailed": "Couldn't load this card.",
+      "tryAgain": "Try again",
+      "jobStatus": "Job status",
+      "pay": "Pay",
+      "payNotListed": "Not listed",
+      "listing": "Listing",
+      "stillOpen": "Still open",
+      "closedOn": "Closed on {date}",
+      "stage": "Stage",
+      "moveNext": "Move to {stage}",
+      "dates": "Dates",
+      "appliedOn": "Applied on",
+      "nextActionOn": "Follow up on",
+      "in3Days": "In 3 days",
+      "nextWeek": "Next week",
+      "clear": "Clear",
+      "clearDate": "Clear {label}",
+      "notes": "Notes",
+      "notesPlaceholder": "Recruiter names, rates, what they asked…",
+      "saving": "Saving…",
+      "saved": "Saved",
+      "saveFailed": "Couldn't save. Please try again.",
+      "notesFailed": "Couldn't save your notes. Your text is still here.",
+      "history": "Stage history",
+      "historyEmpty": "No moves yet. Changes to the stage will appear here.",
+      "historyAdded": "Added to {stage}",
+      "historyMove": "{from} → {to}",
+      "viaEmail": "from a forwarded email",
+      "delete": "Delete card",
+      "deleteTitle": "Delete this card and its history?",
+      "deleteBody": "Notes, dates and stage history will be removed. This can't be undone.",
+      "keep": "Keep card",
+      "confirmDelete": "Delete",
+      "deleteFailed": "Couldn't delete the card. Please try again.",
+      "playbookTitle": "What usually comes next on {platform}",
+      "playbookChecklist": "Checklist",
+      "playbookSource": "Based on {platform}'s public help pages. Their steps can change.",
+      "resume": "Tailored resume",
+      "resumeView": "View",
+      "resumeDownload": "Download (Word)",
+      "resumeNone": "No tailored resume saved for this job yet.",
+      "resumeTailor": "Tailor my resume"
+    },
+    "emailSettings": "Email settings",
+    "movedOffered": "Moved “{title}” to Offered. Congratulations!",
+    "stats": {
+      "label": "Pipeline stats",
+      "appliedThisWeek": "Applied this week",
+      "responseRate": "Response rate",
+      "responseRateValue": "{rate}%",
+      "responseRateNote": "{responded} of {applied} heard back",
+      "noData": "—",
+      "noApplications": "No applications yet",
+      "daysPerStage": "Days per stage",
+      "days": "{stage}: {days, plural, one {# day} other {# days}}",
+      "noMoves": "Move a card to start the clock",
+      "hourlyInPlay": "Hourly value in play",
+      "hourlyNote": "{jobs, plural, =0 {No hourly jobs in progress} one {Across # job in progress} other {Across # jobs in progress}}"
+    }
+  },
+  "Track": {
+    "trackThis": "Track this",
+    "trackOnboarding": "Track onboarding",
+    "tracked": "Tracked",
+    "trackedLabel": "Tracked: open your dashboard",
+    "tracking": "Adding…",
+    "failed": "Couldn't add it to your board. Please try again."
+  },
+  "Emails": {
+    "unsubscribe": "Unsubscribe",
+    "settings": "Email settings",
+    "reasonWelcome": "You're getting this because you created an account on {name}.",
+    "reasonReminder": "You're getting this because you set a follow-up date on {name}. Reminders are sent at most once a day.",
+    "welcome": {
+      "subject": "Welcome to {name}",
+      "preview": "Your job search, in one place.",
+      "heading": "Welcome aboard",
+      "body": "Your dashboard keeps every application in one place. Save jobs with Track this, move them through the stages as you hear back, and keep notes on each one.",
+      "tip": "Tip: set a follow-up date on a card and we'll email you that day, so nothing slips.",
+      "cta": "Open my dashboard"
+    },
+    "reminder": {
+      "subject": "{count, plural, one {# follow-up} other {# follow-ups}} due today",
+      "preview": "{count, plural, one {One card} other {# cards}} on your board {count, plural, one {needs} other {need}} a follow-up today.",
+      "heading": "Time to follow up",
+      "intro": "{count, plural, one {This card on your board has} other {These cards on your board have}} a follow-up date today:",
+      "cta": "Open my dashboard"
+    },
+    "reasonAlert": "You're getting this because you saved a job search on {name}.",
+    "alert": {
+      "subject": "{count, plural, one {# new job} other {# new jobs}} for your saved searches",
+      "preview": "{count, plural, one {A new job matches} other {# new jobs match}} your saved searches.",
+      "heading": "{count, plural, one {A new job for you} other {# new jobs for you}}",
+      "intro": "These jobs are new since your last alert. Open one to see the details and apply.",
+      "count": "{count, plural, one {# new job} other {# new jobs}}",
+      "seeAll": "See all {count} new jobs"
+    },
+    "reasonRecap": "You're getting this because weekly recaps are on in your {name} email settings.",
+    "recap": {
+      "subject": "Your week: {applied, plural, one {# application} other {# applications}}, {responses, plural, one {# response} other {# responses}}",
+      "preview": "Your week on your board, and {matches, plural, =0 {what's next} one {a job that fits you} other {# jobs that fit you}}.",
+      "heading": "Your week",
+      "intro": "Here's how the last 7 days went on your board.",
+      "applied": "{count, plural, one {Application} other {Applications}}",
+      "responses": "{count, plural, one {Response} other {Responses}}",
+      "moves": "{count, plural, one {Stage change} other {Stage changes}}",
+      "matchesHeading": "Top matches for you",
+      "cta": "Open my dashboard"
+    },
+    "reasonNewsletterDrafts": "You're getting this because you post {newsletter}'s social drafts. Only admins receive them.",
+    "reasonNewsletterIssue": "You're getting this because you edit {newsletter}. Only the editor receives it.",
+    "newsletterIssue": {
+      "subject": "Issue for {date} is ready in Beehiiv: {subject}",
+      "preview": "{count, plural, =0 {Ready to review and schedule.} one {# thing to check before you schedule it.} other {# things to check before you schedule it.}}",
+      "heading": "The next issue is ready to review",
+      "intro": "\"{subject}\", the issue for {date}, is in Beehiiv as a draft. Nothing is sent until you schedule it. {count, plural, =0 {The checks found nothing to flag.} one {Clear this check first; it is also marked [CHECK] at the top of the draft:} other {Clear these checks first; they are also marked [CHECK] at the top of the draft:}}",
+      "check": "Check",
+      "cta": "Open the draft in Beehiiv"
+    },
+    "newsletterDrafts": {
+      "subject": "{kind, select, weekly {Weekly data post} social {Today's social posts} other {Social drafts}} for {date}",
+      "preview": "{count, plural, one {# draft} other {# drafts}} ready to check and post.",
+      "heading": "{kind, select, weekly {This week's data post} social {Today's social posts} other {Social drafts}}",
+      "intro": "{kind, select, social {Posts for {date}, written from the issue you sent. Posts with a time go out automatically then (Monterrey time) while SOCIAL_AUTOPOST is on in the newsletter repo; switch it off to stop them. The rest are drafts to post by hand.} other {Drafts for {date}. Check each one, edit it as you like and post it by hand: nothing is posted automatically.}}",
+      "cta": "Open in the admin area",
+      "postsAt": "{channel} · posts at {time}"
+    },
+    "playbook": {
+      "subject": "Your copy of {title}",
+      "preview": "Your download link is inside, plus your first step.",
+      "heading": "Thank you, your Playbook is ready",
+      "body": "Download your PDF from the link below. It works for {days} days; save the file somewhere you'll find it.",
+      "cta": "Download the Playbook",
+      "nextStep": "Chapter 1 starts with one step: create your free {name} account. It gathers every open AI-training role in one feed and tailors your resume to each job.",
+      "nextCta": "Create my free account",
+      "guarantee": "If the Playbook doesn't help you, reply within {days} days of your purchase (or write to {email}) for a full refund.",
+      "reason": "You're getting this because you bought The AI Remote Work Playbook."
+    }
+  },
+  "EmailSettings": {
+    "metaTitle": "Email settings",
+    "title": "Email settings",
+    "subtitle": "Choose which emails we send to {email}.",
+    "byLinkSubtitle": "Choose which emails we send you. Changes save straight away.",
+    "badLink": "This link doesn't work any more. Sign in and open Email settings to change your emails.",
+    "alerts_on": {
+      "label": "Job alerts",
+      "hint": "New jobs that match your saved searches."
+    },
+    "reminders_on": {
+      "label": "Follow-up reminders",
+      "hint": "On days when a card on your board is due for a follow-up."
+    },
+    "recap_on": {
+      "label": "Weekly recap",
+      "hint": "A short summary of your week."
+    },
+    "allOff": "Turn off all emails",
+    "saved": "Saved",
+    "failed": "Couldn't save. Please try again."
+  },
+  "SavedSearches": {
+    "quoted": "“{q}”",
+    "minPay": "{amount}+/hr",
+    "allJobs": "All new jobs",
+    "getAlerts": "Get alerts",
+    "alertsOn": "Alerts on",
+    "alertsOnLabel": "Alerts on for this search: manage them in Email settings",
+    "dialogTitle": "Get alerts for this search",
+    "dialogBody": "We'll email you new jobs that match. Change or stop them any time in Email settings.",
+    "howOften": "How often?",
+    "frequency": {
+      "daily": "Daily",
+      "weekly": "Weekly"
+    },
+    "frequencyHint": {
+      "daily": "One email a day when there are new matches",
+      "weekly": "One email a week with everything new"
+    },
+    "limit": "You already have 10 saved searches. Delete one in Email settings to add another.",
+    "saveFailed": "Couldn't save this search. Please try again.",
+    "cancel": "Cancel",
+    "save": "Save search",
+    "heading": "Saved searches",
+    "intro": "New jobs matching these searches are emailed to you when Job alerts are on.",
+    "listLabel": "Your saved searches",
+    "frequencyFor": "How often to email {search}",
+    "seeJobs": "See jobs",
+    "delete": "Delete",
+    "deleteSearch": "Delete saved search {search}",
+    "deleted": "Deleted “{search}”.",
+    "deleteFailed": "Couldn't delete the search. Please try again.",
+    "updated": "Saved.",
+    "updateFailed": "Couldn't save. Please try again.",
+    "emptyTitle": "No saved searches yet",
+    "emptyBody": "Filter the job feed, then tap Get alerts to hear about new matches.",
+    "browseJobs": "Browse jobs",
+    "alertsOff": "Job alerts are off, so these searches won't be emailed. Turn Job alerts on above."
+  },
+  "Footer": {
+    "label": "Site",
+    "howItWorks": "How it works",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "affiliates": "Affiliate disclosure",
+    "contact": "Contact",
+    "copyright": "© {year} {operator}. Job listings belong to the platforms that post them.",
+    "playbook": "The AI Remote Work Playbook"
+  },
+  "Newsletter": {
+    "footer": {
+      "title": "Get {newsletter}",
+      "body": "The best AI-work opportunities and what's changing in the market, free every weekday."
+    },
+    "job": {
+      "title": "Want the best of these in your inbox?",
+      "body": "{newsletter}: a daily dispatch on what AI is doing to people, from work to power to what it means to be human. Every fact checked. Free, every day."
+    },
+    "dashboard": {
+      "title": "The daily briefing on AI work",
+      "body": "Get {newsletter}: the daily argument about what AI is doing to work, power and being human, checked against the sources. Free, every day."
+    },
+    "email": "Your email for the newsletter",
+    "emailPlaceholder": "you@example.com",
+    "website": "Website",
+    "submit": "Subscribe free",
+    "subscribing": "Subscribing…",
+    "subscribed": "Check your inbox and click the link to confirm your subscription.",
+    "invalid": "Enter a valid email address.",
+    "failed": "Something went wrong. Please try again.",
+    "fineprint": "Free. One short email each weekday. Unsubscribe anytime."
+  },
+  "Intro": {
+    "label": "100% free · Built for AI trainers",
+    "title": "Land paid AI-training work faster.",
+    "lead": "Every open role from {platforms} in one feed, an AI resume tailor that rewrites your resume for each job in about a minute, and a tracker that reminds you to follow up. All free.",
+    "signUp": "Create your free account",
+    "browse": "{count, plural, =0 {Browse jobs} one {Browse # open job} other {Browse # open jobs}}",
+    "learnMore": "How it works",
+    "trust": {
+      "free": "Completely free",
+      "noAccount": "Browse without an account",
+      "noCard": "No credit card, ever",
+      "private": "We never sell your data"
+    },
+    "spotlight": {
+      "badge": "New",
+      "title": "AI resume tailoring",
+      "body": "Stand out on every application with a resume written for that exact job.",
+      "steps": {
+        "upload": "Set up your Master Profile once: your resume plus your best results and skills.",
+        "click": "Open any job and click \"Tailor My Resume for This Job\".",
+        "review": "Review, edit and download it as Word or PDF."
+      },
+      "note": "Your real experience, reworded and reordered for the job. Nothing invented: anything we can't find in your resume is flagged for you to check."
+    },
+    "featuresTitle": "Everything you need to get hired, free",
+    "features": {
+      "resume": {
+        "title": "AI resume tailoring",
+        "body": "A version of your resume for each job in about a minute, keyword-matched to the role, with the job requirements you're missing listed so you can address them."
+      },
+      "feed": {
+        "title": "Every job in one feed",
+        "body": "Open roles from {platforms}, refreshed every few hours. Filter by pay, field, language and country."
+      },
+      "matches": {
+        "title": "Matches with reasons",
+        "body": "Tell us your skills, languages and target rate. We rank the jobs that fit you and say why."
+      },
+      "board": {
+        "title": "Application tracker",
+        "body": "Track every application on your own board, from Saved to Offered, with notes, dates and full history."
+      },
+      "reminders": {
+        "title": "Reminders and alerts",
+        "body": "Follow-up reminders, emails when new jobs match your searches, and a weekly recap."
+      },
+      "passport": {
+        "title": "Platform passport",
+        "body": "See at a glance where you've applied, where you're active, and when you can reapply."
+      }
+    },
+    "howFree": "How is it free? When you're hired through our links, some platforms pay us a referral fee. You never pay anything, and it doesn't change which jobs we show.",
+    "dismiss": "Hide this introduction"
+  },
+  "HowItWorks": {
+    "metaTitle": "How it works",
+    "metaDescription": "How to find remote AI-training jobs and track your applications on {name}, for free.",
+    "title": "How {name} works",
+    "intro": "{name} brings remote AI-training jobs into one place, tailors your resume to each one, and gives you a free board to track every application, so nothing slips through the cracks.",
+    "steps": {
+      "browse": {
+        "title": "1. Browse jobs",
+        "body": "The job feed lists open roles from Mercor, micro1, Invisible, Welo Data, xAI and RemoExperts, refreshed every few hours. Search by title and filter by platform, field, language, country and minimum pay. You don't need an account to browse."
+      },
+      "account": {
+        "title": "2. Create a free account",
+        "body": "Enter your email and we send you a sign-in link. There's no password to remember. A short profile (your field, languages, country and availability) takes about a minute and can be skipped."
+      },
+      "track": {
+        "title": "3. Track jobs you care about",
+        "body": "Tap Track this on any job and it lands in the Saved column of your board. You can also add your own cards for applications made elsewhere."
+      },
+      "tailor": {
+        "title": "4. Tailor your resume to each job",
+        "body": "Upload your resume once on the Resume page. On any job, choose Tailor My Resume for This Job and paste the job description: in about a minute you get a version written for that job, using only your real experience. Review it, edit anything, then save it and download it as Word or PDF."
+      },
+      "board": {
+        "title": "5. Move cards as you progress",
+        "body": "Your board has six stages: Saved, Applied, Assessment, Interviewing, Offered and Rejected. Drag cards on a computer, or use the Move menu on any device. Open a card to add notes, the date you applied and a follow-up date."
+      },
+      "remind": {
+        "title": "6. Get follow-up reminders",
+        "body": "Set a follow-up date on a card and we email you that day, so you remember to check in or chase a reply."
+      },
+      "alerts": {
+        "title": "7. Get job alerts",
+        "body": "Filter the feed, tap Get alerts and choose daily or weekly. We email you new jobs that match. Change or stop any email in Email settings, or with the unsubscribe link in every email."
+      },
+      "free": {
+        "title": "Free, and how we earn",
+        "body": "{name} is free to use. When you apply through our links, the platform may pay us a referral fee if you're hired. It never costs you anything and doesn't change which jobs we show."
+      }
+    },
+    "ctaTitle": "Ready to start?",
+    "ctaSignUp": "Create a free account",
+    "ctaBrowse": "Browse jobs"
+  },
+  "Legal": {
+    "updated": "Last updated {date}",
+    "contactLine": "Questions? Email us at {email}.",
+    "docs": {
+      "terms": {
+        "metaTitle": "Terms of Use",
+        "title": "Terms of Use",
+        "intro": "These terms govern your use of {name} (the \"Service\"), operated by {operator} of {location} (\"we\", \"us\"). By using the Service you agree to them. If you don't agree, please don't use the Service.",
+        "sections": {
+          "service": {
+            "heading": "1. What the Service is",
+            "body": "The Service lists remote AI-training job opportunities published by third-party platforms, such as Mercor and micro1, and offers free tools to track your applications, set reminders and receive job alerts. We are not an employer, recruiter or staffing agency, and we are not part of the hiring process of any platform."
+          },
+          "eligibility": {
+            "heading": "2. Who can use it",
+            "body": "You must be at least 18 years old and able to form a binding contract to create an account. You are responsible for your use of the Service and for keeping access to your email account secure, since sign-in links are sent there."
+          },
+          "listings": {
+            "heading": "3. Job listings",
+            "body": "Listings come from the platforms that post them. We show a short summary and link to the platform for full details. We do our best to keep listings accurate and current, but we don't guarantee that any job is available, that its pay or requirements are correct, or that you will be hired. Always check the details on the platform before applying.\n\nApplications, contracts and payments for any job are between you and the platform. Their own terms apply."
+          },
+          "referrals": {
+            "heading": "4. Referral links",
+            "body": "Some links to platforms include our referral code. If you join or are hired through them, the platform may pay us a fee. This never costs you anything. See our Affiliate Disclosure for details."
+          },
+          "content": {
+            "heading": "5. Your content",
+            "body": "Notes, cards, saved searches and profile answers you add belong to you. You give us permission to store and process them only to provide the Service to you. Don't add content that is unlawful or that you have no right to use.\n\nTailored resumes are drafts written by AI from the resume you upload. Check every detail before you use one: you're responsible for what you send to a platform, and we don't promise that any resume will pass a platform's screening."
+          },
+          "use": {
+            "heading": "6. Acceptable use",
+            "body": "Don't misuse the Service. For example, don't try to access other people's accounts, interfere with the Service's operation, send it automated traffic at a volume a person couldn't, or use it to break the law or any platform's terms."
+          },
+          "availability": {
+            "heading": "7. Availability and changes",
+            "body": "The Service is provided free of charge. We may change, suspend or stop any part of it at any time. We may suspend or close accounts that break these terms. You can stop using the Service and ask us to delete your account at any time."
+          },
+          "warranty": {
+            "heading": "8. No warranty",
+            "body": "The Service is provided \"as is\" and \"as available\", without warranties of any kind, to the fullest extent permitted by law."
+          },
+          "liability": {
+            "heading": "9. Limitation of liability",
+            "body": "To the fullest extent permitted by law, we are not liable for any indirect, incidental or consequential loss, or for any loss arising from a third-party platform, a job listing, or a missed email. Nothing in these terms limits liability that cannot be limited by law, or your rights as a consumer under the law of the country where you live."
+          },
+          "law": {
+            "heading": "10. Governing law",
+            "body": "These terms are governed by the laws of Mexico. Any dispute will be handled by the competent courts of {region}, Mexico, unless the law of the country where you live gives you the right to bring a claim there."
+          },
+          "changes": {
+            "heading": "11. Changes to these terms",
+            "body": "We may update these terms. We'll change the date at the top of this page, and for important changes we'll let account holders know by email. Continuing to use the Service after a change means you accept the new terms."
+          }
+        }
+      },
+      "privacy": {
+        "metaTitle": "Privacy Notice",
+        "title": "Privacy Notice",
+        "intro": "This notice explains what personal data {name} and our daily newsletter, {newsletter}, collect, why, and the choices you have. {operator}, of {location}, is responsible for your data.",
+        "sections": {
+          "collect": {
+            "heading": "1. What we collect",
+            "body": "If you only browse, we don't ask for any personal data.\n\nIf you create an account, we keep: your email address; the profile answers you choose to give (field of work, skills, languages, country, availability and target pay); your tracker cards, notes, dates and stage history; your platform statuses; your saved searches; and your email preferences.\n\nIf you forward emails to your private tracking address, our email provider (Resend) receives them and we read them once to update your board. We keep only the sender's domain and the subject line, never the email itself.\n\nIf you use resume tailoring, we keep your Master Profile (the text of the resume you upload or paste, never the file itself, and the core skills and evidence you add), the tailored resumes you create, and a record of each tailoring request (when, for which job, and how much it cost to run, never its content).\n\nWhen you click Apply, we record which job was clicked and when (and your account, if you're signed in), so we can measure referrals. Our hosting providers also keep standard technical logs, such as IP addresses, for security.\n\nIf you subscribe to {newsletter}, we keep your email address, when you subscribed, and where you signed up (for example, the page or link you came from). When you subscribe through a form on this site, the form sends your email address straight to our newsletter provider; we also count the signup, recording only which form it was and the campaign tags in the page address, never who you are. Our newsletter provider records whether each issue is delivered and whether you open it or click its links, so we can see which parts readers find useful."
+          },
+          "use": {
+            "heading": "2. Why we use it",
+            "body": "We use your data to provide the Service: to sign you in, show your board, send the emails you ask for (sign-in links, the welcome email, follow-up reminders, job alerts and the newsletter), match jobs to your profile, keep the Service secure, and understand how referral links are used and which parts of the newsletter readers find useful. We don't sell your data, and we don't use it for advertising.\n\nWe rely on providing the Service you requested (contract) and our legitimate interest in running and securing it. Where the law requires consent, for example for optional emails and the newsletter, you can withdraw it at any time in Email settings or with the unsubscribe link at the bottom of every newsletter."
+          },
+          "share": {
+            "heading": "3. Who we share it with",
+            "body": "We use a small number of service providers who process data on our behalf: Supabase (database and sign-in), Netlify (website hosting), Resend (email delivery), Beehiiv (newsletter delivery and the newsletter website at {newsletterDomain}) and Stripe (payments for The AI Remote Work Playbook). When you buy the Playbook, Stripe collects your payment details on its own checkout page; we never see your card. We receive your name, email address and country from Stripe, and use your email only to send your download link and answer refund requests. They may process data in the United States or other countries, under contracts and safeguards that protect it.\n\nWhen you apply through our links, the platform (for example Mercor or micro1) receives our referral code. It doesn't receive your data from us. Anything you give a platform is covered by its own privacy policy.\n\nWe use an AI provider, Anthropic. It helps research and draft the newsletter from public information, such as job listings and news, and for that it never receives your personal data. When you ask us to tailor your resume, we send Anthropic your master resume, the core skills and evidence on your Master Profile, and the job description, so it can write the tailored version. Anthropic processes them on our behalf, keeps them only for a limited time under its own data policies, and doesn't use them to train its models."
+          },
+          "keep": {
+            "heading": "4. How long we keep it",
+            "body": "We keep your account data for as long as your account exists. If you ask us to delete your account, we delete your personal data within 30 days, apart from anything we must keep by law. Click records not linked to an account may be kept for statistics.\n\nYou can delete your Master Profile, and any tailored resume, at any time from the Master Profile page; they are deleted with your account too.\n\nWe keep your newsletter subscription until you unsubscribe. After that we stop emailing you, but we may keep your email address on a do-not-send list so we never email you again by mistake."
+          },
+          "rights": {
+            "heading": "5. Your rights",
+            "body": "Depending on where you live, including under the EU and UK GDPR and Mexico's personal data protection law (your ARCO rights), you can ask to access, correct or delete your data, object to or restrict its use, or receive a copy. You can stop optional emails at any time in Email settings, and unsubscribe from the newsletter with the link in every issue. To make a request, email us at {email}. You can also complain to your local data protection authority."
+          },
+          "security": {
+            "heading": "6. Security",
+            "body": "Data is encrypted in transit, and access to each account's data is restricted to that account. The people who run the Service (the operator and one administrator) can see account email addresses and account activity, only to operate the Service and answer support requests. No system is perfectly secure, so please keep access to your email account safe."
+          },
+          "children": {
+            "heading": "7. Children",
+            "body": "The Service is for people aged 18 and over. We don't knowingly collect data from children."
+          },
+          "changes": {
+            "heading": "8. Changes",
+            "body": "We may update this notice. We'll change the date at the top, and for important changes we'll let account holders and newsletter subscribers know by email."
+          }
+        }
+      },
+      "cookies": {
+        "metaTitle": "Cookie Notice",
+        "title": "Cookie Notice",
+        "intro": "{name} uses only a few cookies, all needed for the site to work. We don't use advertising or analytics cookies, so we don't show a cookie banner.",
+        "sections": {
+          "which": {
+            "heading": "1. The cookies we use",
+            "body": "Sign-in cookies (names starting with \"sb-\"): keep you signed in. They are set when you sign in and removed when you sign out.\n\nLanguage cookie (NEXT_LOCALE): remembers the site language.\n\nIntroduction cookie (intro_dismissed): remembers that you hid the welcome introduction, for up to a year.\n\nPlaybook card cookie (playbook_card_dismissed): remembers that you hid the Playbook card on your dashboard, for up to a year."
+          },
+          "third": {
+            "heading": "2. Third-party cookies",
+            "body": "We don't place third-party cookies. When you follow a link to a job platform, that platform's own cookie policy applies on its site.\n\nOur newsletter's website, {newsletterDomain}, is hosted by Beehiiv, which may set its own cookies there. Beehiiv's cookie policy applies on that site."
+          },
+          "control": {
+            "heading": "3. Your choices",
+            "body": "You can delete or block cookies in your browser settings. If you block the sign-in cookies, you won't be able to stay signed in. If we ever add optional cookies, such as analytics, we'll ask for your consent first."
+          }
+        }
+      },
+      "affiliates": {
+        "metaTitle": "Affiliate Disclosure",
+        "title": "Affiliate Disclosure",
+        "intro": "{name} is free because some links to job platforms are referral links.",
+        "sections": {
+          "how": {
+            "heading": "How it works",
+            "body": "When you click Apply, you go to the platform through our link, which may add our referral code. Today that applies to Mercor and micro1; links to other platforms, such as Invisible or Welo Data, are plain links with no referral code. If you join or are hired through the link, the platform may pay us a referral fee under its own referral program."
+          },
+          "you": {
+            "heading": "What it means for you",
+            "body": "It never costs you anything, and it doesn't change your pay or your chances of being hired. Jobs are listed and sorted the same way whether or not they earn us a fee. We mark referral links with a short notice next to the Apply button."
+          }
+        }
+      }
+    }
+  },
+  "Match": {
+    "eyebrow": "Picked for you",
+    "title": "Matched jobs",
+    "subtitle": "Open jobs that fit your profile, best first.",
+    "fitsYou": "Fits you:",
+    "reasonLanguages": "speaks {languages}",
+    "reasonPay": "meets your rate",
+    "reasonCountry": "open in {country}",
+    "seeAll": "See all jobs",
+    "emptyTitle": "No new matches right now",
+    "emptyBody": "We check for new jobs every 6 hours. Browse the feed in the meantime.",
+    "profileTitle": "Tell us what you do",
+    "profileBody": "Add your field and languages, and we'll pick the jobs that fit you.",
+    "profileCta": "Add field and languages"
+  },
+  "Passport": {
+    "eyebrow": "Where you stand",
+    "title": "Platform Passport",
+    "subtitle": "Your status on each platform. Changes move its card on your board.",
+    "statusFor": "{platform} status",
+    "reapplyOn": "Can reapply on",
+    "reapplyFor": "{platform}: can reapply on",
+    "reapplyNow": "You can reapply now",
+    "join": "Join {platform}",
+    "openJobs": "{count, plural, =0 {No open jobs} one {# open job} other {# open jobs}}",
+    "saving": "Saving…",
+    "saved": "Saved",
+    "failed": "Couldn't save. Please try again.",
+    "empty": "No platforms to show yet."
+  },
+  "Today": {
+    "title": "Today",
+    "subtitle": "What needs you now, most urgent first.",
+    "overdue": "Follow up on {title}",
+    "overdueNote": "Was due {date}",
+    "dueToday": "Follow up on {title}",
+    "dueTodayNote": "Due today",
+    "reapply": "You can reapply to {platform}",
+    "reapplyNote": "Your waiting period is over.",
+    "reapplyAction": "Reapply",
+    "assessment": "Finish your assessment: {title}",
+    "assessmentNote": "Assessments often have a deadline.",
+    "closed": "{title} is no longer listed",
+    "closedNote": "Applied already? Keep it. If not, you can remove it.",
+    "newMatches": "{count, plural, one {# new matched job} other {# new matched jobs}} since your last visit",
+    "newMatchesAction": "See matches",
+    "open": "Open",
+    "openCard": "Open {title}",
+    "emptyTitle": "You're all caught up",
+    "emptyBody": "Follow-ups, assessments and new matches will show up here."
+  },
+  "Inbound": {
+    "heading": "Track by email",
+    "intro": "Forward application emails from Mercor or micro1 to your private address and we'll update your board.",
+    "copy": "Copy address",
+    "copied": "Copied",
+    "copyFailed": "Couldn't copy. Select the address and copy it yourself.",
+    "howTitle": "How it works",
+    "how1": "Forward a confirmation, interview invite, offer or rejection to this address.",
+    "how2": "When we're sure which card and stage it is, the card moves (or a card is created).",
+    "how3": "When we're not sure, it waits for you under \"Forwarded emails\" on your dashboard.",
+    "tip": "Tip: set a filter in your email to forward messages from mercor.com or micro1.ai automatically.",
+    "privacy": "We keep only the sender's domain and the subject line, never the email itself. Keep this address private: anyone who has it can forward emails to your board.",
+    "reviewTitle": "Forwarded emails",
+    "reviewIntro": "We weren't sure where these go. Choose a card and stage, or ignore them.",
+    "from": "From {domain} · {date}",
+    "noSubject": "(no subject)",
+    "card": "Card",
+    "newCard": "New {platform} card",
+    "chooseCard": "Choose a card",
+    "stage": "Stage",
+    "add": "Add to board",
+    "ignore": "Ignore",
+    "added": "Added to your board.",
+    "ignored": "Ignored.",
+    "failed": "Couldn't save. Please try again."
+  },
+  "AdminListings": {
+    "metaTitle": "Hand-picked listings",
+    "title": "Hand-picked listings",
+    "intro": "Listings you add here appear only in {newsletter}, never on this site. Copy each one from the platform's own public page.",
+    "formTitle": "Add a listing",
+    "company": "Company",
+    "companyNone": "Not in the list",
+    "companyNew": "New company name",
+    "companyNewHint": "Only if it's not in the list above.",
+    "jobTitle": "Job title",
+    "url": "Listing address",
+    "urlHint": "The platform's public page for this job (https://…).",
+    "summary": "Short summary (optional)",
+    "payMin": "Pay from (USD)",
+    "payMax": "Pay up to (USD)",
+    "payUnit": "Per",
+    "payUnitNone": "Not listed",
+    "units": {
+      "hour": "hour",
+      "day": "day",
+      "week": "week",
+      "month": "month",
+      "year": "year",
+      "task": "task",
+      "session": "session",
+      "project": "project"
+    },
+    "countries": "Countries (optional)",
+    "countriesHint": "Country names, separated by commas, e.g. United States, Mexico. Leave empty if it's open everywhere.",
+    "postedAt": "Posted on (optional)",
+    "verifiedAt": "Checked on (optional)",
+    "save": "Check and save",
+    "saving": "Checking…",
+    "outcome": {
+      "new": "Saved as a new listing.",
+      "duplicate": "Not saved: it repeats “{match}”.",
+      "updated": "Updated “{match}” with the new details.",
+      "uncertain": "Saved for review: it may repeat “{match}”."
+    },
+    "errors": {
+      "invalid": "Check the fields marked in red.",
+      "forbidden": "Only the editor can change listings.",
+      "preview": "Listings can't be changed on a preview site.",
+      "failed": "Something went wrong. Please try again."
+    },
+    "fieldErrors": {
+      "platformName": "Choose a company or type a new name.",
+      "title": "Enter the job title.",
+      "url": "Enter an https:// address.",
+      "payMin": "Enter a number.",
+      "payMax": "Enter a number at least as high as “Pay from”.",
+      "payUnit": "Choose what the pay is per.",
+      "countries": "Separate country names with commas.",
+      "postedAt": "Enter a date.",
+      "verifiedAt": "Enter a date.",
+      "countriesUnknown": "Not recognised: {names}. Check the spelling (English names)."
+    },
+    "listTitle": "Your listings",
+    "empty": "No hand-picked listings yet.",
+    "emptyHint": "Add one with the form above.",
+    "reviewNote": "May repeat:",
+    "keep": "Keep",
+    "drop": "Drop as a repeat",
+    "close": "Close",
+    "statusOpen": "Open",
+    "statusClosed": "Closed",
+    "anywhere": "Anywhere",
+    "payNotListed": "Pay not listed",
+    "checked": "Checked {date}",
+    "notChecked": "Not checked yet",
+    "actionFailed": "Couldn't save. Please try again."
+  },
+  "Admin": {
+    "nav": {
+      "label": "Admin sections",
+      "overview": "Overview",
+      "users": "Users",
+      "listings": "Listings",
+      "newsletter": "Newsletter"
+    },
+    "overview": {
+      "metaTitle": "Admin",
+      "title": "Admin",
+      "intro": "Figures for {name} and {newsletter}. Only admins can see this page.",
+      "site": {
+        "heading": "Site",
+        "accounts": "Accounts",
+        "new7": "New this week",
+        "new30": "New in 30 days",
+        "onboarded": "Profiles completed",
+        "active7": "Active this week",
+        "cards": "Jobs tracked",
+        "applied": "Applications"
+      },
+      "signups": {
+        "heading": "Newsletter signups from the site",
+        "intro": "Last 30 days, by form and campaign.",
+        "form": "Form",
+        "source": "Source",
+        "campaign": "Campaign",
+        "last7": "7 days",
+        "last30": "30 days",
+        "none": "None",
+        "empty": "No signups from the site in the last 30 days.",
+        "forms": {
+          "footer": "Footer",
+          "job": "Job page",
+          "dashboard": "Dashboard"
+        }
+      },
+      "sources": {
+        "heading": "Job sources",
+        "source": "Source",
+        "lastRun": "Last run",
+        "found": "Found",
+        "open": "Open jobs",
+        "status": "Status",
+        "ok": "OK",
+        "failing": "{count, plural, one {Failed once} other {Failed # times in a row}}",
+        "newsletterOnly": "Newsletter only",
+        "empty": "No job source has run yet."
+      }
+    },
+    "users": {
+      "metaTitle": "Users",
+      "title": "Users",
+      "count": "{count, plural, =0 {No accounts} one {# account} other {# accounts}}",
+      "searchLabel": "Search by email",
+      "search": "Search",
+      "clear": "Clear",
+      "email": "Email",
+      "joined": "Signed up",
+      "lastSignIn": "Last sign-in",
+      "profile": "Profile",
+      "cards": "Jobs tracked",
+      "done": "Done",
+      "notDone": "Not yet",
+      "never": "Never",
+      "empty": "No accounts match.",
+      "previous": "Previous page",
+      "next": "Next page",
+      "page": "Page {page} of {pages}",
+      "privacy": "Account email addresses are personal data. Use them only to run the service and answer support requests."
+    },
+    "newsletter": {
+      "metaTitle": "Newsletter",
+      "title": "Newsletter",
+      "intro": "What the {newsletter} workflow produced: job picks, social posts (posted automatically or drafts to copy by hand), and what each run cost.",
+      "cost": {
+        "heading": "Model spend",
+        "last7": "Last 7 days",
+        "last30": "Last 30 days",
+        "thisMonth": "This month"
+      },
+      "runs": {
+        "heading": "Runs",
+        "empty": "No runs yet. They appear here once the newsletter workflow starts running.",
+        "issue": "Issue",
+        "kind": "Run",
+        "status": "Status",
+        "cost": "Cost",
+        "output": "Picks and drafts",
+        "outputValue": "{picks, plural, one {# pick} other {# picks}}, {drafts, plural, one {# draft} other {# drafts}}",
+        "view": "View",
+        "viewLabel": "View the run for {date}",
+        "kinds": {
+          "daily": "Daily",
+          "weekly": "Weekly",
+          "social": "Social"
+        },
+        "statuses": {
+          "running": "Running",
+          "succeeded": "Done",
+          "failed": "Failed"
+        }
+      },
+      "run": {
+        "heading": "Run for {date}",
+        "shortlist": "Job picks",
+        "shortlistEmpty": "This run picked no jobs.",
+        "caveats": "Caveats:",
+        "drafts": "Social posts and drafts",
+        "draftsEmpty": "This run wrote no drafts.",
+        "emailed": "Emailed {date}",
+        "notEmailed": "Not emailed",
+        "copy": "Copy",
+        "copyLabel": "Copy the {channel} draft",
+        "copied": "Copied.",
+        "copyFailed": "Couldn't copy. Select the text and copy it instead.",
+        "postsAt": "Posts at {time}",
+        "statuses": {
+          "draft": "Draft to post by hand",
+          "scheduled": "Scheduled",
+          "posting": "Posting (check it by hand)",
+          "posted": "Posted",
+          "failed": "Failed",
+          "skipped": "Skipped"
+        },
+        "viewPost": "View the post"
+      }
+    }
+  },
+  "NewsletterChannels": {
+    "linkedin": "LinkedIn",
+    "x": "X",
+    "bluesky": "Bluesky",
+    "threads": "Threads",
+    "facebook": "Facebook",
+    "reddit": "Reddit",
+    "video": "Video script"
+  },
+  "Tailor": {
+    "heading": "Tailored resume",
+    "button": "Tailor My Resume for This Job",
+    "signedOut": "Sign in, set up your Master Profile once, and get a version of your resume tailored to this job in about a minute.",
+    "statusNone": "Resume not yet tailored for this job.",
+    "continueDraft": "Continue your draft",
+    "statusSaved": "Tailored resume saved (version {version}, {date}).",
+    "view": "View",
+    "downloadWord": "Download (Word)",
+    "updateAvailable": "Your Master Profile has changed since this version was made. Tailor again for an updated version; your saved one stays as it is.",
+    "explainer": "Your master resume is never changed. You review and edit every tailored version before saving it.",
+    "dialogTitle": "Tailor my resume",
+    "forJob": "For {title} at {company}.",
+    "needsMaster": "Set up your Master Profile first. It's your complete resume plus any extra skills and evidence, and every tailored resume is built from it. Upload or paste your resume once and you can tailor it to any job in one click. You'll come straight back here.",
+    "uploadFirst": "Set up my Master Profile",
+    "descriptionLabel": "Full job description",
+    "descriptionHelp": "We couldn't get this job's full description automatically, so paste it from the <listing>job's listing</listing> (opens in a new tab). The tailored resume is based on what you paste here.",
+    "descriptionLoading": "Getting the full job description…",
+    "descriptionFilled": "We filled in the full description from the <listing>job's listing</listing>. Check it (you can edit it), then tailor your resume.",
+    "tooShort": "{count, plural, one {# more character needed} other {# more characters needed}}: paste the whole description, not just the title.",
+    "length": "{count, plural, one {# character} other {# characters}}",
+    "remaining": "{count, plural, =0 {You've used today's tailored resumes; try again tomorrow.} one {# tailored resume left today.} other {# tailored resumes left today.}}",
+    "privacy": "Your Master Profile and this description are sent to our AI provider, Anthropic, to write the draft.",
+    "cancel": "Cancel",
+    "generate": "Tailor my resume",
+    "generating": "Tailoring your resume for {title} at {company}…",
+    "generatingHint": "This usually takes under a minute. Keep this page open; you'll go straight to the draft to review it.",
+    "errors": {
+      "description_too_short": "That description is too short to tailor a resume to. Paste the full job description.",
+      "description_too_long": "That description is too long. Paste only the job description itself.",
+      "not_authenticated": "Your session has expired. Sign in again, then try once more.",
+      "no_master_resume": "Set up your Master Profile first.",
+      "job_not_found": "This job is no longer open, so it can't be tailored for.",
+      "generation_in_progress": "A tailored resume is already being written. Wait for it to finish, then try again.",
+      "daily_limit": "You've reached today's limit of tailored resumes. Try again tomorrow.",
+      "not_configured": "Resume tailoring isn't available right now. Please try again later.",
+      "refused": "The AI couldn't tailor this resume. Check that your master resume and the description are what you meant to send.",
+      "truncated": "The tailored resume came out incomplete. Please try again; a shorter job description may help.",
+      "invalid_output": "The AI's answer couldn't be used, so nothing was saved. Please try again.",
+      "incomplete": "The AI's answer was missing parts of your resume, so nothing was saved. Please try again.",
+      "rate_limited": "The AI service is busy. Please wait a minute and try again.",
+      "timeout": "That took too long, so nothing was saved. Please try again.",
+      "unavailable": "The AI service is unavailable right now. Please try again in a few minutes.",
+      "failed": "Something went wrong, so nothing was saved. Please try again.",
+      "network": "We couldn't reach the server. Check your connection and try again."
+    }
+  },
+  "Resume": {
+    "metaTitle": "Master Profile",
+    "title": "Master Profile",
+    "subtitle": "Everything the resume tailor knows about you. Set it up once: every tailored resume is built from it, and nothing outside it is ever added.",
+    "returnNotice": "Set up your Master Profile and we'll take you back to the job to tailor it.",
+    "masterHeading": "Upload your resume",
+    "masterIntro": "The quickest start: upload your resume and we'll fill in its text below. Uploading again replaces the text and keeps your core skills and evidence.",
+    "activeLabel": "Current Master Profile",
+    "updated": "{type} · updated {date}",
+    "updatedText": "Typed or pasted · updated {date}",
+    "profileHeading": "Your Master Profile",
+    "resumeLabel": "Baseline Master Resume",
+    "resumeHelp": "Your complete resume as text: every position with its dates, your education and your skills. Paste it here, or upload a file above and check the text we read from it.",
+    "evidenceLabel": "Core Skills & Evidence",
+    "evidenceHelp": "Proof your resume leaves out, for the tailor to use where a job calls for it: results with numbers, tools and languages, projects, certifications, publications, AI-training or rating work. One plain fact per line, with the role it belongs to. It's treated as true, so only include what you can back up.",
+    "evidencePlaceholder": "- Cut claim review time 40% as Billing Lead at Acme Health (2023)\n- Python, SQL, Label Studio, Excel (advanced)\n- 1,200+ hours rating and writing prompts for AI models (2024–2025)\n- Certified Professional Coder (AAPC, 2021)",
+    "count": "{count, plural, one {# character} other {# characters}} of {max}",
+    "save": "Save Master Profile",
+    "saving": "Saving…",
+    "saved": "Your Master Profile is saved. New tailored resumes will use it.",
+    "unchanged": "No changes to save.",
+    "profileErrors": {
+      "too_short": "Your resume text needs at least {min} characters. Paste your whole resume, not just a summary.",
+      "too_long": "Your resume text is longer than {max} characters. Paste just your resume.",
+      "evidence_too_long": "Core Skills & Evidence can be up to {max} characters. Keep the facts that matter most.",
+      "auth": "Your session has expired. Sign in again, then try once more.",
+      "failed": "Something went wrong, so nothing was saved. Please try again."
+    },
+    "emptyTitle": "Set up your Master Profile to tailor resumes",
+    "emptyBody": "Upload your resume here, or paste it below. Once it's saved, every job page gets a \"Tailor My Resume for This Job\" button that writes a version for that job, which you review before saving.",
+    "fileHelp": "PDF or Word (.docx), up to {mb} MB. Scanned PDFs can't be read (there's no text recognition): use a text-based PDF or a Word file.",
+    "upload": "Upload resume",
+    "replace": "Replace resume",
+    "uploading": "Reading your resume…",
+    "uploaded": "Your resume is uploaded and its text is below. Check it, add your core skills and evidence, and save any changes. Tailored resumes you already made are unchanged.",
+    "delete": "Delete",
+    "deleteTitle": "Delete your Master Profile?",
+    "deleteBody": "We'll delete your resume text and your core skills and evidence, and any earlier versions we kept. Tailored resumes you made stay, as separate documents.",
+    "keep": "Keep it",
+    "confirmDelete": "Delete Master Profile",
+    "deleted": "Your Master Profile is deleted.",
+    "privacy": "We keep the text of your Master Profile, never the file you upload. It's sent to our AI provider, Anthropic, only when you tailor a resume to a job. You can delete it at any time.",
+    "tailoredHeading": "Tailored resumes",
+    "usage": "{used} of {limit} tailored resumes used in the last 24 hours.",
+    "noneTitle": "No tailored resumes yet",
+    "noneBody": "Open any job and choose \"Tailor My Resume for This Job\".",
+    "browseJobs": "Browse jobs",
+    "itemMeta": "{company} · version {version} · {date}",
+    "status": {
+      "draft": "Draft",
+      "saved": "Saved"
+    },
+    "download": "Download",
+    "downloadFor": "Download {title}, version {version} (Word)",
+    "errors": {
+      "type": "That file isn't a PDF or a Word (.docx) file. Save your resume as one of those and try again.",
+      "size": "That file is too big. Resumes can be up to {mb} MB.",
+      "scanned": "We couldn't find any text in that PDF. It's probably a scan or an image; please upload a text-based PDF or a Word file instead.",
+      "empty": "That Word file has almost no text. Check it's your resume and try again.",
+      "too_long": "That file has much more text than a resume. Please upload just your resume.",
+      "unreadable": "We couldn't open that file. It may be damaged or password-protected.",
+      "missing": "Choose a file to upload.",
+      "auth": "Your session has expired. Sign in again, then try once more.",
+      "failed": "Something went wrong. Please try again."
+    }
+  },
+  "Review": {
+    "metaTitle": "Review tailored resume",
+    "backToJob": "Back to the job",
+    "eyebrow": "Tailored resume",
+    "title": "{title} at {company}",
+    "meta": "Version {version} · made {date}",
+    "status": {
+      "draft": "Draft, not saved yet",
+      "saved": "Saved"
+    },
+    "verifyTitle": "Check every fact before you use this resume",
+    "verifyBody": "It was written by AI from your master resume. AI can make mistakes: make sure every employer, title, date, qualification and number is true. No resume is guaranteed to pass a platform's screening.",
+    "notesHeading": "What changed",
+    "unverified": "Not found in your master resume: check these before using it",
+    "changes": "Main changes",
+    "noChanges": "No changes listed.",
+    "emphasized": "Qualifications put forward",
+    "noEmphasized": "None listed.",
+    "gaps": "Job requirements your resume doesn't show",
+    "noGaps": "None found.",
+    "flags": "To check",
+    "noFlags": "Nothing flagged.",
+    "compare": "Compare with your master resume",
+    "compareHint": "The version this tailored resume was made from.",
+    "editorHeading": "Edit the tailored resume",
+    "basics": "Name and summary",
+    "name": "Name",
+    "headline": "Headline",
+    "contact": "Contact details",
+    "summary": "Summary",
+    "skills": "Skills",
+    "onePerLine": "One per line.",
+    "experience": "Experience",
+    "position": "Position",
+    "jobTitle": "Job title",
+    "employer": "Employer",
+    "location": "Location",
+    "dates": "Dates",
+    "bullets": "Highlights",
+    "removePosition": "Remove this position",
+    "education": "Education",
+    "educationEntry": "Education",
+    "credential": "Degree or qualification",
+    "institution": "School",
+    "details": "Details",
+    "more": "Certifications and more",
+    "certifications": "Certifications",
+    "save": "Save Tailored Resume",
+    "downloadWord": "Download Word",
+    "downloadPdf": "Download PDF",
+    "cancel": "Cancel",
+    "discardTitle": "Discard this draft?",
+    "discardBody": "The draft will be deleted. Your master resume and any saved versions are not affected.",
+    "keepDraft": "Keep editing",
+    "discard": "Discard draft",
+    "saved": "Saved. This is now your tailored resume for this job.",
+    "saveFailed": "Couldn't save. Please try again.",
+    "invalid": "Some required details are empty (a name, and a job title and employer for each position). Fill them in and save again.",
+    "downloaded": "Downloaded.",
+    "downloadFailed": "Couldn't create the file. Please try again.",
+    "pdfUnsupported": "This resume uses characters our PDF can't show yet. Download the Word version instead.",
+    "unsaved": "You have unsaved changes."
+  },
+  "ResumeFile": {
+    "summary": "Summary",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "certifications": "Certifications"
+  },
+  "Playbook": {
+    "metaTitle": "The AI Remote Work Playbook: get paid to help build the future of AI",
+    "metaDescription": "The field guide to finding AI-training work, passing AI assessments and AI interviews like micro1's Zara, and getting hired. By Cris Lopez, PhD. Instant PDF, 30-day money-back guarantee.",
+    "brand": "The AI Remote Work Playbook",
+    "buy": "Get the Playbook: {price}",
+    "buyShort": "Get it for {price}",
+    "redirecting": "Opening secure checkout…",
+    "checkout": {
+      "unavailable": "Checkout isn't open yet. Please check back soon.",
+      "error": "We couldn't start checkout. Please try again in a moment.",
+      "cancelled": "Checkout was cancelled; you haven't been charged. The Playbook is here whenever you're ready."
+    },
+    "trust": {
+      "instant": "Instant PDF download",
+      "guarantee": "{days}-day money-back guarantee",
+      "secure": "Secure checkout by Stripe"
+    },
+    "hero": {
+      "eyebrow": "New field guide · By Cris Lopez, PhD",
+      "title": "Get paid to help build the future of AI.",
+      "lead": "The step-by-step playbook for landing AI-training work: find real opportunities, pass the assessments and AI interviews like micro1's Zara, and get accepted on platforms like Mercor and micro1. No machine-learning degree required.",
+      "facts": {
+        "chapters": "14 chapters",
+        "simulations": "10 practice simulations",
+        "plan": "30-day action plan"
+      },
+      "coverAlt": "Cover of The AI Remote Work Playbook by Cris Lopez, PhD"
+    },
+    "pain": {
+      "title": "Sound familiar?",
+      "lead": "Thousands of people are applying for AI-training work. Most get stuck at the same points.",
+      "items": {
+        "silence": "You apply to platform after platform and never hear back.",
+        "assessment": "You fail an assessment and nobody tells you why.",
+        "interview": "An AI interviewer asks you to \"walk through your reasoning\" and you freeze.",
+        "scams": "You can't tell which opportunities are real and which are scams.",
+        "resume": "You rewrite your resume for every listing and still don't know what they want."
+      },
+      "close": "None of this is about talent. It's about knowing how the process works. That's what this playbook teaches."
+    },
+    "advantage": {
+      "title": "Your non-AI experience is your unfair advantage",
+      "lead": "AI work isn't one job. It's a family of tasks: evaluating answers, ranking responses, fact-checking, writing examples, reviewing code, testing for safety. Models still need human judgment to tell right from merely fluent, and that judgment comes from experience you may already have.",
+      "items": {
+        "teachers": {
+          "title": "Teachers",
+          "body": "Grade work against explicit criteria and spot recurring mistakes: the core of rubric-based evaluation."
+        },
+        "service": {
+          "title": "Customer service pros",
+          "body": "Resolve ambiguous cases while keeping strict policy accuracy and clear notes."
+        },
+        "bilingual": {
+          "title": "Bilingual professionals",
+          "body": "Catch translation errors and cultural mismatches that models miss."
+        },
+        "experts": {
+          "title": "Experienced professionals",
+          "body": "Lawyers, analysts, managers, academics: platforms actively seek seasoned domain experts."
+        }
+      }
+    },
+    "inside": {
+      "title": "What's inside the Playbook",
+      "lead": "{pages} pages. No filler, no theory: a field guide written from more than 500 hours of paid AI-training work.",
+      "chapters": {
+        "c1": {
+          "title": "The quick-start blueprint",
+          "body": "A 30-day action plan, day by day, plus the 30-minute daily routine that keeps your pipeline moving."
+        },
+        "c2": {
+          "title": "The opportunity is now",
+          "body": "What AI remote work really is, why your past experience counts, and an honest look at what it can earn."
+        },
+        "c3": {
+          "title": "Find the right opportunities",
+          "body": "The opportunity map, platforms worth investigating, geographic restrictions, and how to spot fake offers."
+        },
+        "c4": {
+          "title": "Become a competitive applicant",
+          "body": "The evidence formula that turns duties into proof: Action + Context + Standard + Result."
+        },
+        "c5": {
+          "title": "Pass Zara and the AI interview",
+          "body": "How micro1's AI recruiter interviews, the \"thinking out loud\" framework, and the mistakes that sink candidates."
+        },
+        "c6": {
+          "title": "Master the assessments",
+          "body": "How assessments work, how to evaluate AI responses professionally, and how to find hallucinations."
+        },
+        "c7": {
+          "title": "Get accepted, get paid, keep going",
+          "body": "Your first tasks, real effective hourly earnings, protecting payouts, and building a portfolio that lasts."
+        },
+        "c8": {
+          "title": "The bonus resource vault",
+          "body": "A ready-to-paste resume prompt, the Resume Evidence Matrix and the Zara Interview Prep cheat sheet."
+        },
+        "c9": {
+          "title": "The simulation lab",
+          "body": "Practice exercises with expert judgments, so you never take a real assessment cold."
+        },
+        "c10": {
+          "title": "Final checklist & glossary",
+          "body": "The global remote worker checklist (location, payments, taxes) and the terms you'll be tested on."
+        },
+        "c11": {
+          "title": "Bonus: the experienced professional's advantage",
+          "body": "How to turn decades of career experience into a domain-expert edge."
+        },
+        "c12": {
+          "title": "Bonus: the technical evaluator's tech stack",
+          "body": "The tools behind the highest-paying coding and quantitative evaluations."
+        },
+        "c13": {
+          "title": "The simulation lab, expanded",
+          "body": "Five more simulations: actionability, unsupported claims, weak rationales, stale sources and the halo effect."
+        },
+        "c14": {
+          "title": "Your next action starts today",
+          "body": "Three steps to your first application, today."
+        }
+      }
+    },
+    "sample": {
+      "title": "Try a free sample from the Simulation Lab",
+      "lead": "Every simulation asks you to judge first, then compare with the expert judgment. Here's the first one.",
+      "label": "Simulation 1 · Instruction following",
+      "promptLabel": "The prompt",
+      "prompt": "“Give two reasons to keep a project tracker.”",
+      "aLabel": "Response A",
+      "a": "“It records application status and reminds you of follow-up actions.”",
+      "bLabel": "Response B",
+      "b": "“It improves organization, boosts confidence, helps networking, makes resumes better, and guarantees you never miss an opportunity.”",
+      "question": "Which response is better, and why?",
+      "reveal": "Show the expert judgment",
+      "judgment": "A follows the request for exactly two reasons and avoids an unsupported guarantee. B gives more than was asked for and makes an absolute claim that can't be justified.",
+      "close": "The Playbook has ten of these, covering the skills assessments test most: rubric adherence, hallucinations, ambiguity and contradictions."
+    },
+    "bonuses": {
+      "title": "Included with your copy",
+      "items": {
+        "vault": {
+          "title": "The Bonus Resource Vault",
+          "body": "The AI Resume Adapter prompt, the Resume Evidence Matrix and the Zara Interview Prep framework, ready to use."
+        },
+        "lab": {
+          "title": "10 practice simulations",
+          "body": "Real-style evaluation exercises with expert judgments, to train the skills assessments test."
+        },
+        "chapters": {
+          "title": "Two bonus chapters",
+          "body": "The experienced professional's advantage, and the technical evaluator's tech stack."
+        },
+        "dashboard": {
+          "title": "Free: AI Remote Work Dashboard",
+          "body": "Every open role from Mercor, micro1 and other AI-training platforms in one feed, an AI resume tailor and an application tracker. Free, forever."
+        }
+      }
+    },
+    "audience": {
+      "forTitle": "This playbook is for you if…",
+      "for": {
+        "switcher": "You want flexible, remote, paid work and you're open to something new.",
+        "expert": "You have professional or academic experience and want to put it to work training AI.",
+        "bilingual": "You speak more than one language, or work in a field like law, medicine, finance or education.",
+        "stuck": "You've applied before and got stuck at an assessment or AI interview."
+      },
+      "notTitle": "It's not for you if…",
+      "not": {
+        "rich": "You want guaranteed income or a get-rich-quick scheme. The book is honest: work can be meaningful, and it can also be irregular.",
+        "shortcuts": "You want to fake qualifications or bypass country restrictions. The Playbook teaches the opposite: truthful, specific applications win."
+      }
+    },
+    "author": {
+      "title": "About the author",
+      "name": "Cris Lopez, PhD",
+      "body": "“I did not write this book based on theory. I wrote it based on over 500 hours of paid, hands-on work evaluating and training AI models.”",
+      "more": "Combining decades of academic rigor and executive leadership, Cris built a systematic approach to the new AI workforce: landing roles, passing rigorous assessments, and receiving regular inquiries and offers from platforms like Mercor, micro1, Ethos and Alignerr, after going through the onboarding of dozens more.",
+      "creator": "Cris also built the free AI Remote Work Dashboard that the Playbook's 30-day plan starts with."
+    },
+    "offer": {
+      "title": "Get the Playbook today",
+      "lead": "One payment. Instant download. Yours to keep.",
+      "price": "{price}",
+      "priceNote": "One-time payment · USD",
+      "includes": {
+        "book": "The AI Remote Work Playbook ({pages}-page PDF)",
+        "plan": "The 30-day quick-start action plan",
+        "zara": "Zara and AI-interview preparation framework",
+        "lab": "10 practice simulations with expert judgments",
+        "vault": "The Bonus Resource Vault",
+        "bonus": "Two bonus chapters",
+        "dashboard": "Free access to AI Remote Work Dashboard"
+      }
+    },
+    "guarantee": {
+      "title": "{days}-day money-back guarantee",
+      "body": "Read it, use it, and try the plan. If the Playbook doesn't help you, email us within {days} days of your purchase and we'll refund every cent. No questions, no hassle."
+    },
+    "faq": {
+      "title": "Questions",
+      "items": {
+        "format": {
+          "q": "What do I get, and how?",
+          "a": "A {pages}-page PDF. After checkout you go straight to your download page, and we email you the link too. It works on any phone, tablet or computer."
+        },
+        "experience": {
+          "q": "Do I need AI or tech experience?",
+          "a": "No. Many roles center on evaluation, writing, language and subject knowledge. The book shows how to translate the experience you already have, truthfully."
+        },
+        "guarantee": {
+          "q": "Does it guarantee I'll get hired?",
+          "a": "No, and be wary of anyone who promises that. Platforms choose who they accept, and work can be irregular. The Playbook gives you the process, the practice and the preparation that make you a much stronger applicant."
+        },
+        "platforms": {
+          "q": "Which platforms does it cover?",
+          "a": "It focuses on Mercor and micro1 (including micro1's AI recruiter, Zara), and covers others to research such as Alignerr, Ethos, DataAnnotation, Outlier, TELUS Digital AI and RWS TrainAI. The book isn't affiliated with or endorsed by any of them."
+        },
+        "countries": {
+          "q": "Can I use it outside the United States?",
+          "a": "Yes. Many roles are open internationally, and the book has a checklist for location, payments and taxes so you can confirm eligibility before you apply."
+        },
+        "dashboard": {
+          "q": "Is the dashboard really free?",
+          "a": "Yes. AI Remote Work Dashboard is free to use, with or without the book. Some platforms pay us a referral fee when you're hired through our links; you never pay anything."
+        },
+        "refund": {
+          "q": "What if it isn't for me?",
+          "a": "Email {email} within {days} days of your purchase for a full refund."
+        },
+        "payment": {
+          "q": "Is payment secure?",
+          "a": "Checkout runs on Stripe, which handles cards for millions of businesses. We never see or store your card details."
+        }
+      }
+    },
+    "final": {
+      "title": "The opportunity is an invitation. Start today.",
+      "lead": "You don't need to understand the whole AI economy before you begin. You need a realistic target, a truthful application and a plan. This is the plan."
+    },
+    "disclaimer": "The AI Remote Work Playbook is an independent guide by Cris Lopez, PhD, published by El Barrial Devs. It isn't affiliated with, sponsored or endorsed by any platform it mentions; names are trademarks of their owners. Earnings vary; no income is guaranteed.",
+    "thanks": {
+      "metaTitle": "Thank you",
+      "title": "Thank you! Your Playbook is ready.",
+      "body": "Download your PDF below. We've also emailed the link to {email}. The link works for {days} days after your purchase.",
+      "bodyNoEmail": "Download your PDF below. The link works for {days} days after your purchase.",
+      "download": "Download the Playbook (PDF)",
+      "nextTitle": "Your first step (Chapter 1, Day 1)",
+      "nextBody": "Create your free AI Remote Work Dashboard account: every open AI-training role in one feed, an AI resume tailor that writes a version of your resume for each job, and a tracker that reminds you to follow up.",
+      "nextCta": "Create my free account",
+      "support": "Questions, or not happy with it? Email {email} within {days} days for a full refund.",
+      "unpaidTitle": "We couldn't confirm this purchase",
+      "unpaidBody": "If you just paid, wait a minute and refresh this page. If it still doesn't work, email {email} with the address you used at checkout and we'll send your copy.",
+      "refundedTitle": "This purchase was refunded",
+      "refundedBody": "Its download link no longer works. If you think that's a mistake, email {email}.",
+      "expiredTitle": "This download link has expired",
+      "expiredBody": "Download links work for {days} days. Email {email} with the address you used at checkout and we'll send you a new one.",
+      "back": "Back to the Playbook"
+    }
+  },
+  "PlaybookPromo": {
+    "eyebrow": "From the creator",
+    "title": "The AI Remote Work Playbook",
+    "body": "Zara interview prep, 10 practice simulations and a 30-day plan to land AI-training work.",
+    "cta": "Get the Playbook: {price}",
+    "dismiss": "Hide the Playbook card",
+    "seeIt": "See the Playbook",
+    "assessment": "Preparing for an assessment? The Playbook has 10 practice simulations with expert judgments.",
+    "interviewing": "Interviewing? The Playbook shows how to prepare for AI interviews like micro1's Zara.",
+    "micro1": "micro1 interviews candidates with Zara, its AI recruiter. Chapter 5 of the Playbook shows how to prepare.",
+    "evidence": "Not sure what counts as evidence? The Playbook's Resume Evidence Matrix walks you through it."
+  }
+}

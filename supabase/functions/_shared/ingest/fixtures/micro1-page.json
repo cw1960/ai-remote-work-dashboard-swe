@@ -1,0 +1,180 @@
+{
+  "status": true,
+  "message": "All jobs fetched successfully",
+  "statusCode": 200,
+  "total": 7,
+  "data": [
+    {
+      "job_id": "f3ca9a77-ffd0-4eb7-b4ba-10deb5c71abb",
+      "ideal_monthly_salary_min": null,
+      "ideal_monthly_salary_max": null,
+      "ideal_hourly_rate": {
+        "max": 200,
+        "min": 100
+      },
+      "ideal_yearly_compensation": null,
+      "job_name": " Bilingual Japanese Psychiatrist",
+      "company_name": "micro1",
+      "engagement_type": null,
+      "location_type": null,
+      "date_posted": "2026-09-28 19:40:05",
+      "skills": [
+        "bilingual communication",
+        "ethical decision-making",
+        "cultural sensitivity",
+        "analytical evaluation",
+        "case study development",
+        "written and verbal communication",
+        "interdisciplinary collaboration",
+        "psychological assessment",
+        "documentation",
+        "Bilingual in Japanese",
+        "Psychiatry"
+      ],
+      "job_tags": [],
+      "role_type": "expert",
+      "domain_slug": "sciences-research",
+      "job_type": "REGULAR",
+      "company_logo": "https://micro1-portal-data.s3.amazonaws.com/assets/1744082236915-95e6b5c0-2d84-4d83-aac0-672c6abd08d0-micro1-single-logo.png",
+      "apply_url": "https://jobs.micro1.ai/post/f3ca9a77-ffd0-4eb7-b4ba-10deb5c71abb?utm_source=micro1&utm_medium=job_portal",
+      "is_micro1_account": true
+    },
+    {
+      "job_id": "15be616a-44af-4fd5-8283-e2fd51a11f1b",
+      "ideal_monthly_salary_min": null,
+      "ideal_monthly_salary_max": null,
+      "ideal_hourly_rate": {
+        "max": 90,
+        "min": 70
+      },
+      "ideal_yearly_compensation": null,
+      "job_name": "Junior Transactional Attorney",
+      "company_name": "micro1",
+      "engagement_type": null,
+      "location_type": null,
+      "date_posted": "2026-09-24 02:31:33",
+      "skills": [
+        "Contract Redlining",
+        "Contract Negotiation",
+        "Contract Drafting",
+        "MSAs",
+        "NDAs",
+        "LPAs",
+        "ISDAs"
+      ],
+      "job_tags": null,
+      "role_type": "expert",
+      "domain_slug": "law",
+      "job_type": "REGULAR",
+      "company_logo": "https://micro1-portal-data.s3.amazonaws.com/assets/1744082236915-95e6b5c0-2d84-4d83-aac0-672c6abd08d0-micro1-single-logo.png",
+      "apply_url": "https://jobs.micro1.ai/post/15be616a-44af-4fd5-8283-e2fd51a11f1b?utm_source=micro1&utm_medium=job_portal",
+      "is_micro1_account": true
+    },
+    {
+      "job_id": "2635948c-eb96-440d-8e4d-b32b8af0a25d",
+      "ideal_monthly_salary_min": "2000.00",
+      "ideal_monthly_salary_max": "12000.00",
+      "ideal_hourly_rate": {
+        "max": 110,
+        "min": 60
+      },
+      "ideal_yearly_compensation": null,
+      "job_name": "Backend Java Developer",
+      "company_name": "micro1",
+      "engagement_type": "full-time",
+      "location_type": "remote",
+      "date_posted": "2026-04-18 06:30:20",
+      "skills": ["JAVA", "Spring Boot", "Microservices"],
+      "job_tags": [],
+      "role_type": "specialist",
+      "domain_slug": "software-engineering",
+      "job_type": "REGULAR",
+      "company_logo": "https://micro1-portal-data.s3.amazonaws.com/assets/1744082236915-95e6b5c0-2d84-4d83-aac0-672c6abd08d0-micro1-single-logo.png",
+      "apply_url": "https://jobs.micro1.ai/post/2635948c-eb96-440d-8e4d-b32b8af0a25d?utm_source=micro1&utm_medium=job_portal",
+      "is_micro1_account": true
+    },
+    {
+      "job_id": "f3abc8e0-2f0e-4f28-aa3f-ee26ca98861f",
+      "ideal_monthly_salary_min": null,
+      "ideal_monthly_salary_max": null,
+      "ideal_hourly_rate": null,
+      "ideal_yearly_compensation": null,
+      "job_name": "AI Facial Data Collection Contributor (Ethnicity)",
+      "company_name": "micro1",
+      "engagement_type": null,
+      "location_type": null,
+      "date_posted": "2026-09-17 21:05:20",
+      "skills": [
+        "digital photography",
+        "video recording",
+        "attention to detail",
+        "following instructions",
+        "independent work",
+        "image and video quality assessment",
+        "issue reporting"
+      ],
+      "job_tags": [],
+      "role_type": "expert",
+      "domain_slug": "robotics",
+      "job_type": "REGULAR",
+      "company_logo": "https://micro1-portal-data.s3.amazonaws.com/assets/1744082236915-95e6b5c0-2d84-4d83-aac0-672c6abd08d0-micro1-single-logo.png",
+      "apply_url": "https://jobs.micro1.ai/post/f3abc8e0-2f0e-4f28-aa3f-ee26ca98861f?utm_source=micro1&utm_medium=job_portal",
+      "is_micro1_account": true
+    },
+    {
+      "job_id": "aae4e860-c280-40ae-9493-0ac9e6f44ad3",
+      "ideal_monthly_salary_min": null,
+      "ideal_monthly_salary_max": null,
+      "ideal_hourly_rate": {
+        "max": 65,
+        "min": 30
+      },
+      "ideal_yearly_compensation": null,
+      "job_name": "Voice Recorder (Japanese + English)",
+      "company_name": "micro1",
+      "engagement_type": "part-time",
+      "location_type": "remote",
+      "date_posted": "2026-08-13 10:46:13",
+      "skills": [],
+      "job_tags": [],
+      "role_type": "generalist",
+      "domain_slug": "language-audio",
+      "job_type": "REGULAR",
+      "company_logo": "https://micro1-portal-data.s3.amazonaws.com/assets/1744082236915-95e6b5c0-2d84-4d83-aac0-672c6abd08d0-micro1-single-logo.png",
+      "apply_url": "https://jobs.micro1.ai/post/aae4e860-c280-40ae-9493-0ac9e6f44ad3?utm_source=micro1&utm_medium=job_portal",
+      "is_micro1_account": true
+    },
+    {
+      "job_id": "95262281-9341-44dc-a5b1-4361ed9daaab",
+      "ideal_monthly_salary_min": null,
+      "ideal_monthly_salary_max": null,
+      "ideal_hourly_rate": {
+        "max": 92,
+        "min": 28
+      },
+      "ideal_yearly_compensation": null,
+      "job_name": "Salesforce Specialist",
+      "company_name": "micro1",
+      "engagement_type": null,
+      "location_type": null,
+      "date_posted": "2026-09-28 18:20:23",
+      "skills": [
+        "Salesforce CRM",
+        "Salesforce Workflow & Automation",
+        "Salesforce Reports & Dashboards",
+        "CRM Data Management"
+      ],
+      "job_tags": null,
+      "role_type": "generalist",
+      "domain_slug": "sales-marketing",
+      "job_type": "REGULAR",
+      "company_logo": "https://micro1-portal-data.s3.amazonaws.com/assets/1744082236915-95e6b5c0-2d84-4d83-aac0-672c6abd08d0-micro1-single-logo.png",
+      "apply_url": "https://jobs.micro1.ai/post/95262281-9341-44dc-a5b1-4361ed9daaab?utm_source=micro1&utm_medium=job_portal",
+      "is_micro1_account": true
+    },
+    {
+      "job_id": "fixture-broken"
+    }
+  ],
+  "company_settings": null
+}
